@@ -1,0 +1,596 @@
+{
+   "dashboards": [{
+      "autoswitchEnabled": false,
+      "columnCount": 1,
+      "columnProportion": "1-1",
+      "creationTime": 1640088724630,
+      "dashboardNavigations": {},
+      "description": "",
+      "disabled": false,
+      "gridsterMaxColumns": 12,
+      "hidden": false,
+      "homeTab": false,
+      "id": "ca294446-0739-4e98-aea7-405dab9b41cc",
+      "importAttempts": 0,
+      "importComplete": true,
+      "lastUpdateTime": 1640160697366,
+      "lastUpdateUserId": "e6a68a6a-379d-4afe-8371-56d2b2684223",
+      "locked": false,
+      "name": "Tracking All VDC in vCloud Director",
+      "rank": 0,
+      "shared": false,
+      "states": [],
+      "temporary": false,
+      "userId": "e6a68a6a-379d-4afe-8371-56d2b2684223",
+      "widgetInteractions": [
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7af20c99-fe61-4fed-97e5-78318760a9ff",
+            "widgetIdReceiver": "6a2eb854-add5-4eca-afdb-30019e41a773"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7af20c99-fe61-4fed-97e5-78318760a9ff",
+            "widgetIdReceiver": "0c7f4559-2466-441f-89a4-ec90e96b40d4"
+         },
+         {
+            "type": "resourceId",
+            "widgetIdProvider": "7af20c99-fe61-4fed-97e5-78318760a9ff",
+            "widgetIdReceiver": "1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8"
+         }
+      ],
+      "widgets": [
+         {
+            "collapsed": false,
+            "config": {
+               "configs": [
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#00ff00",
+                              "#00ff00",
+                              "#FFFF00",
+                              "#FF6600",
+                              "#ff0000"
+                           ],
+                           "values": [
+                              0,
+                              70,
+                              80,
+                              90
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "cpu|used_percent",
+                        "value": "CPU|Used (%)"
+                     },
+                     "filterMode": "tagPicker",
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "adapterKind": "vCloud",
+                        "id": "004null002006vCloudORG_VDC",
+                        "parentId": "vCloud",
+                        "parentText": "vCloud Adapter",
+                        "resourceKind": "ORG_VDC",
+                        "text": "Organization VDC",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": "VDC CPU Usage",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:0_::_",
+                     "sizeBy": {
+                        "metricKey": "cpu|used_percent",
+                        "value": "CPU|Used (%)"
+                     },
+                     "solidColoring": true,
+                     "thenBy": null
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#00ff00",
+                              "#00ff00",
+                              "#FFFF00",
+                              "#FF6600",
+                              "#ff0000"
+                           ],
+                           "values": [
+                              0,
+                              70,
+                              80,
+                              90
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "memory|used_percent",
+                        "value": "Memory|Used (%)"
+                     },
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "adapterKind": "vCloud",
+                        "id": "004null002006vCloudORG_VDC",
+                        "parentId": "vCloud",
+                        "parentText": "vCloud Adapter",
+                        "resourceKind": "ORG_VDC",
+                        "text": "Organization VDC",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "mode": {"mode": false},
+                     "name": " VDC Memory Usage",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:0_::_",
+                     "sizeBy": {
+                        "metricKey": "memory|used_percent",
+                        "value": "Memory|Used (%)"
+                     },
+                     "solidColoring": true,
+                     "thenBy": null
+                  },
+                  {
+                     "attributeKind": {"value": ""},
+                     "color": {
+                        "maxValue": 100,
+                        "minValue": 0,
+                        "thresholds": {
+                           "colors": [
+                              "#00ff00",
+                              "#00ff00",
+                              "#FFFF00",
+                              "#FF6600",
+                              "#ff0000"
+                           ],
+                           "values": [
+                              0,
+                              70,
+                              80,
+                              90
+                           ]
+                        }
+                     },
+                     "colorBy": {
+                        "metricKey": "storage|used_percent",
+                        "value": "Storage|Used (%)"
+                     },
+                     "focusOnGroups": true,
+                     "groupBy": {
+                        "adapterKind": "vCloud",
+                        "id": "004null002006vCloudORG_VDC",
+                        "parentId": "vCloud",
+                        "parentText": "vCloud Adapter",
+                        "resourceKind": "ORG_VDC",
+                        "text": "Organization VDC",
+                        "type": "resourceKind",
+                        "typeId": "resourceKind:id:0_::_"
+                     },
+                     "id": "extModel41120-3",
+                     "mode": {"mode": false},
+                     "name": "VDC Storage Usage%",
+                     "relationalGrouping": false,
+                     "resourceKind": "resourceKind:id:0_::_",
+                     "sizeBy": {
+                        "metricKey": "storage|used_percent",
+                        "value": "Storage|Used (%)"
+                     },
+                     "solidColoring": true,
+                     "thenBy": null
+                  }
+               ],
+               "depth": 10,
+               "mode": "all",
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": [
+                  1,
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "selfProvider": {"selfProvider": true},
+               "title": "Heatmap",
+               "value": 0
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 12,
+               "x": 1,
+               "y": 1
+            },
+            "height": 437,
+            "id": "7af20c99-fe61-4fed-97e5-78318760a9ff",
+            "states": [
+               {
+                  "key": "perm_toolbarVisible_widget_ca294446-0739-4e98-aea7-405dab9b41cc_7af20c99-fe61-4fed-97e5-78318760a9ff",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "perm_HeatMap_widget_ca294446-0739-4e98-aea7-405dab9b41cc_7af20c99-fe61-4fed-97e5-78318760a9ff",
+                  "value": "o%3A"
+               }
+            ],
+            "title": "Heatmap",
+            "type": "Heatmap"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "cpu|used_percent",
+                  "name": "CPU|Used (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 900,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Top VDC CPU Usage%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 0
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 1,
+               "y": 9
+            },
+            "height": 380,
+            "id": "ff5d46fb-1bf0-401c-89a7-663756006599",
+            "title": "Top VDC CPU Usage%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "storage|used_percent",
+                  "name": "Storage|Used (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 900,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Top VDC Storage Usage%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 70
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 9,
+               "y": 9
+            },
+            "height": 380,
+            "id": "e9da1831-c27a-43ef-a510-7a11a191e524",
+            "title": "Top VDC Storage Usage%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "additionalColumns": [],
+               "barsCount": 15,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 10,
+               "filterMode": "tagPicker",
+               "filterOldMetrics": {"filterOldMetrics": false},
+               "maxValue": null,
+               "metric": {
+                  "metricKey": "memory|used_percent",
+                  "name": "Memory|Used (%)"
+               },
+               "metricName": "",
+               "metricUnit": {
+                  "metricUnitId": -1,
+                  "metricUnitName": "Auto"
+               },
+               "mode": "all",
+               "orangeBound": 80,
+               "percentileValue": null,
+               "redBound": 90,
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 900,
+               "regenerationTime": 15,
+               "relationshipMode": {"relationshipMode": [
+                  -1,
+                  0
+               ]},
+               "resource": [],
+               "resourceKind": [{"id": "resourceKind:id:0_::_"}],
+               "roundDecimals": 1,
+               "selfProvider": {"selfProvider": true},
+               "tagFilter": null,
+               "title": "Top VDC Memory Usage%",
+               "topOption": "metricsHighestUtilization",
+               "yellowBound": 0
+            },
+            "gridsterCoords": {
+               "h": 7,
+               "w": 4,
+               "x": 5,
+               "y": 9
+            },
+            "height": 380,
+            "id": "b2e2d6cd-9056-4b47-bade-f7c863eb84d8",
+            "title": "Top VDC Memory Usage%",
+            "type": "ParetoAnalysis"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel36452-1",
+                     "isStringMetric": false,
+                     "metricKey": "memory|used_percent",
+                     "metricName": "Memory|Used",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Organization VDC",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Rolling View Chart"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 5,
+               "y": 16
+            },
+            "height": 437,
+            "id": "0c7f4559-2466-441f-89a4-ec90e96b40d4",
+            "states": [
+               {
+                  "key": "permDateRange_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_0c7f4559-2466-441f-89a4-ec90e96b40d4",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_0c7f4559-2466-441f-89a4-ec90e96b40d4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_0c7f4559-2466-441f-89a4-ec90e96b40d4",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_0c7f4559-2466-441f-89a4-ec90e96b40d4",
+                  "value": "o%3Aweight%3Dn%253A0"
+               }
+            ],
+            "title": "Rolling View Chart",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel11610-2",
+                     "isStringMetric": false,
+                     "metricKey": "cpu|used_percent",
+                     "metricName": "CPU|Used",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Organization VDC",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Rolling View Chart"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 1,
+               "y": 16
+            },
+            "height": 437,
+            "id": "6a2eb854-add5-4eca-afdb-30019e41a773",
+            "states": [
+               {
+                  "key": "permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_6a2eb854-add5-4eca-afdb-30019e41a773",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_ca294446-0739-4e98-aea7-405dab9b41cc_6a2eb854-add5-4eca-afdb-30019e41a773",
+                  "value": "b%3A1"
+               },
+               {
+                  "key": "permDateRange_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_6a2eb854-add5-4eca-afdb-30019e41a773",
+                  "value": "s%3A%7B%22dateRange%22%3A%22currentMonth%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_6a2eb854-add5-4eca-afdb-30019e41a773",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_6a2eb854-add5-4eca-afdb-30019e41a773",
+                  "value": "b%3A0"
+               }
+            ],
+            "title": "Rolling View Chart",
+            "type": "RollingViewChart"
+         },
+         {
+            "collapsed": false,
+            "config": {
+               "autoTransitionInterval": null,
+               "customFilter": {
+                  "excludedResources": null,
+                  "filter": [],
+                  "includedResources": null
+               },
+               "depth": 1,
+               "metric": {
+                  "mode": "resourceKind",
+                  "resourceKindMetrics": [{
+                     "colorMethod": 1,
+                     "handleOldColoring": false,
+                     "id": "extModel41663-1",
+                     "isStringMetric": false,
+                     "metricKey": "storage|used_percent",
+                     "metricName": "Storage|Used",
+                     "metricUnitId": "percent",
+                     "resourceKindId": "resourceKind:id:0_::_",
+                     "resourceKindName": "Organization VDC",
+                     "unit": "%"
+                  }],
+                  "resourceMetrics": [],
+                  "subMode": "resourceKindAll"
+               },
+               "refreshContent": {"refreshContent": true},
+               "refreshInterval": 1200,
+               "relationshipMode": {"relationshipMode": 0},
+               "resInteractionMode": null,
+               "resource": [],
+               "selfProvider": {"selfProvider": false},
+               "title": "Rolling View Chart"
+            },
+            "gridsterCoords": {
+               "h": 8,
+               "w": 4,
+               "x": 9,
+               "y": 16
+            },
+            "height": 437,
+            "id": "1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8",
+            "states": [
+               {
+                  "key": "permDateRange_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8",
+                  "value": "s%3A%7B%22dateRange%22%3A%22dashboardTime%22%2C%22dateFrom%22%3Anull%2C%22dateTo%22%3Anull%2C%22timeFrom%22%3Anull%2C%22timeTo%22%3Anull%7D"
+               },
+               {
+                  "key": "permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8",
+                  "value": "o%3Aweight%3Dn%253A0"
+               },
+               {
+                  "key": "permBtn_pan_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "permBtn_zoomAllGraphs_permMetricChart_widget_ca294446-0739-4e98-aea7-405dab9b41cc_1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8",
+                  "value": "b%3A0"
+               },
+               {
+                  "key": "perm_toolbarVisible_widget_ca294446-0739-4e98-aea7-405dab9b41cc_1dc00be1-3128-4d41-ac3e-42cdbbf7d1f8",
+                  "value": "b%3A1"
+               }
+            ],
+            "title": "Rolling View Chart",
+            "type": "RollingViewChart"
+         }
+      ]
+   }],
+   "entries": {"resourceKind": [{
+      "adapterKindKey": "vCloud",
+      "internalId": "resourceKind:id:0_::_",
+      "resourceKindKey": "ORG_VDC"
+   }]},
+   "uuid": "afeb9226-1cce-4d7e-ab59-e0cd78471f38"
+}
